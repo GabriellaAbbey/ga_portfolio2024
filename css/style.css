@@ -818,12 +818,13 @@ span {
 .thumbgrid a img {
   filter: brightness(1.075);
   transition: all ease-in-out 0.2s;
-  
+  background-color: #0000;  
 }
 
 .thumbgrid a:hover img {
   filter: brightness(1); 
   box-shadow: 0 0 10px 0 rgba(0, 63, 21, 0.346);
+
  
 }
 
