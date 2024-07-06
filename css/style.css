@@ -402,8 +402,9 @@ section {
       text-align: center;
     }
     .toggle-nav .site-nav a:hover {
-      background-color: rgba(91, 237, 42, 0.8);
+      background-color:  #d4323a ;
       color:white;
+      
   }
 
   .toggle-nav[data-navstate=open] ul {
@@ -783,7 +784,7 @@ span {
 
 @media (min-height: 600px) {
   #contact {
-    padding-bottom: 20em;
+    padding-bottom: 4em;
   }
   }
 
