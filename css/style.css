@@ -404,7 +404,6 @@ section {
     .toggle-nav .site-nav a:hover {
       background-color:  #d4323a ;
       color:white;
-      
   }
 
   .toggle-nav[data-navstate=open] ul {
@@ -755,7 +754,20 @@ span {
   font-size: 1em;
   font-weight: lighter;
 }
+
+
+
+
+
+
+
 /* CUSTOM SITE CSS *//* CUSTOM SITE CSS *//* CUSTOM SITE CSS */
+
+
+
+
+
+
 .section-title {
   text-align: center;
   margin-bottom: 3em;
@@ -791,14 +803,15 @@ span {
 
 
 
-/* custom hero css */
+/* hero css */
 
 .heroimage {
   scale: 1.85 ;
   padding-bottom: .5em;
 }
 
-/* custom portfolio grid */
+/* portfolio grid */
+
 /* #THUMBGRID */
 .thumbgrid {
   display: flex;
@@ -894,7 +907,7 @@ fade-in {
 }
 
 
-/* custom about css */
+/* about css */
 h2 {
   max-width: 46ch;
   text-wrap: pretty;
@@ -906,9 +919,47 @@ h3 {
   text-wrap: pretty;
 }
 
-.pfpimg{
+.pfpimg {
   scale: 1.5;
 }
 
 
-/* custom contact css */
+/* contact css */
+
+#contact {
+  padding-top: em;
+}
+
+/* PORTFOLIO SECTIONS */ /* PORTFOLIO SECTIONS */
+
+/* FRIBOURG PORTFOLIO */
+
+.port-hero {
+  padding: 10em;
+  margin-left: 0;
+  text-align: center;
+  padding: 0vh 1em 20vh 1em;
+  max-height: auto;
+  max-width: auto;
+
+}
+
+.port-hero img {
+  left: 0;
+  right: 0;
+  top:0;
+  width: fit-content;
+  background-size: cover;
+
+}
+
+@media (max-width: 768px) {
+.port-hero {
+  padding: 0vh 1em 20vh 1em;
+}
+}
+
+.port-hero h1 {
+  padding-top: 1em;
+  scale: 1.85 ;
+}
