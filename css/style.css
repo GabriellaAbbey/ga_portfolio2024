@@ -43,7 +43,7 @@ body, h3 {
 }
 
 h2 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: "libre-bodoni", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -915,7 +915,7 @@ fade-in {
 
 /* about css */
 h2 {
-  max-width: 46ch;
+  max-width: 30ch;
   text-wrap: pretty;
   margin-left: auto;
   margin-right: auto;
