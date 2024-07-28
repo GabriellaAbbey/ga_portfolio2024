@@ -68,8 +68,7 @@ h2 {
 
   h3 {
     font-size: 1.5em; /* 24px */
-    line-height: 1.2; 
- 
+    line-height: 1.2;
   }
 
   h4 {
@@ -914,15 +913,23 @@ fade-in {
 
 
 /* about css */
+
+#about h3 {
+  max-width: 45ch;
+}
 h2 {
   max-width: 30ch;
   text-wrap: pretty;
   margin-left: auto;
   margin-right: auto;
+  margin: 0;
+  max-width: 28ch;
+  
   
 }
 h3 {
   text-wrap: pretty;
+  
 }
 
 .pfpimg {
@@ -936,9 +943,29 @@ h3 {
   padding-top: em;
 }
 
+
+@media (max-width: 768px) {
+  .column.one-half {
+    max-width: fit-content;
+  }
+  .pfpimg {
+    scale: 1.25;
+  }
+}
+
 /* PORTFOLIO SECTIONS */ /* PORTFOLIO SECTIONS */
 
-/* FRIBOURG PORTFOLIO */
+.sectionhead {
+  text-align: center;
+  padding-bottom: 2em;
+  font-family: "libre-bodoni", sans-serif;
+}
+
+.sectionsub {
+  font-family: "libre-bodoni", sans-serif;
+}
+
+
 
 .port-hero {
   padding: 10em;
@@ -947,7 +974,6 @@ h3 {
   padding: 0vh 1em 20vh 1em;
   max-height: auto;
   max-width: auto;
-
 }
 
 .port-hero img {
@@ -956,6 +982,7 @@ h3 {
   top:0;
   width: fit-content;
   background-size: cover;
+  padding-top: 2em;
 
 }
 
@@ -967,5 +994,13 @@ h3 {
 
 .port-hero h1 {
   padding-top: 1em;
+  padding-bottom: .5em;
   scale: 1.85 ;
+}
+
+
+.testing {
+  max-width: 35em;
+  margin-left: auto;
+  margin-right: auto;
 }
