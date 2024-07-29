@@ -206,6 +206,7 @@ h2 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 4%;
+    border: 2px solid blue;
   
   }
 
@@ -369,13 +370,14 @@ section {
 .hero {
     padding: 10em;
     margin-left: 0;
+    margin-right: 0;
     text-align: center;
     
   }
 
   .hero h1, 
   .hero p {
-    max-width: 600px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -811,8 +813,50 @@ span {
 /* hero css */
 
 .heroimage {
-  scale: 1.85 ;
   padding-bottom: .5em;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid red;
+}
+.heroimage h1 {
+ font-size: 5em;
+}
+
+
+@media (max-width: 768px) {
+  .heroimage {
+    scale: 1;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 598px) {
+
+  .heroimage h1 {
+    font-size: 4em;
+}
+}
+
+@media (max-width: 361px) {
+
+  .heroimage h1 {
+    font-size: 3em;
+    text-wrap: pretty;
+}
+  .hero {
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-top: 3em;
+    align-items: center;
+    justify-content: center;
+
+  }
 }
 
 /* portfolio grid */
@@ -938,10 +982,6 @@ h3 {
 
 
 /* contact css */
-
-#contact {
-  padding-top: em;
-}
 
 
 @media (max-width: 768px) {
