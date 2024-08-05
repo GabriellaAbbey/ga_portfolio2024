@@ -37,7 +37,7 @@ body {
     color:#124a2a;
     background-color: #f4f1e3;
 }
-body, h3 {
+body, h3, h4 {
   font-family: brandon-grotesque, sans-serif;
     font-weight: 400;
 }
@@ -1023,6 +1023,7 @@ h3 {
   width: fit-content;
   background-size: cover;
   padding-top: 2em;
+  
 
 }
 
@@ -1039,8 +1040,12 @@ h3 {
 }
 
 
-.testing {
+.port-brief {
   max-width: 35em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.threelogos {
+  padding-bottom: 4em;
 }
