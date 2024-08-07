@@ -206,7 +206,6 @@ h2 {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 4%;
-    border: 2px solid blue;
   
   }
 
@@ -816,7 +815,7 @@ span {
   padding-bottom: .5em;
   margin-left: 0;
   margin-right: 0;
-  border: 1px solid red;
+
 }
 .heroimage h1 {
  font-size: 5em;
