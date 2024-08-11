@@ -998,6 +998,8 @@ h3 {
   text-align: center;
   padding-bottom: 2em;
   font-family: "libre-bodoni", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sectionsub {
@@ -1045,4 +1047,19 @@ h3 {
 
 .threelogos {
   padding-bottom: 4em;
+}
+
+/* solution section */
+
+.finalproduct {
+  text-align: center;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0;
+  text-align: center;
+  padding: 0vh 1em 20vh 1em;
+  max-height: auto;
+  max-width: auto;
 }
