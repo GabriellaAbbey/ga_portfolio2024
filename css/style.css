@@ -1049,6 +1049,20 @@ h3 {
   padding-bottom: 4em;
 }
 
+/* sketching */
+.sketching {
+  text-align: center;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0;
+  text-align: center;
+  max-height: auto;
+  max-width: auto;
+  padding-bottom: 3em;
+}
+
 /* solution section */
 
 .finalproduct {
@@ -1063,3 +1077,4 @@ h3 {
   max-height: auto;
   max-width: auto;
 }
+
