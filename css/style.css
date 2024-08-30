@@ -1040,6 +1040,10 @@ h3 {
   padding-bottom: .5em;
   scale: 1.85;
   text-align: center;
+  border: 1px solid blue;
+  max-width: fit-content;
+  max-height: fit-content;
+
 }
 
 
