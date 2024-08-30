@@ -1031,7 +1031,10 @@ h3 {
 }
 }
 
-
+.port-blurb {
+ border: 1px solid red;
+ 
+}
 .port-blurb h1 {
   padding-top: 1em;
   padding-bottom: .5em;
