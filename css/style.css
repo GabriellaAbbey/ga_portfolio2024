@@ -55,8 +55,11 @@ h2 {
  h1 {
    font-size: 3em; /* 48px */
    line-height: 1; 
-   font-family: dreamboat, sans-serif;;
-   font-weight: 600;
+   /* font-family: dreamboat, sans-serif;; */
+   font-family: lust-didone, serif;
+   font-weight: 700;
+   font-style: italic;
+   /* font-weight: 600; */
 
  }
 
@@ -1033,7 +1036,7 @@ h3 {
   /* padding-top: 1em;
   padding-bottom: .5em; */
   text-align: center;
-  font-size: 6em;
+  font-size: 4em;
 
 }
 
