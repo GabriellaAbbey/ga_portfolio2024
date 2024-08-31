@@ -1012,9 +1012,7 @@ h3 {
 .port-hero {
   margin-left: 0;
   text-align: center;
-  padding: 0vh 1em 20vh 1em;
-  max-height: auto;
-  max-width: auto;
+  padding: 0vh 1em 0 1em;
 }
 
 .port-hero img {
@@ -1031,16 +1029,11 @@ h3 {
 }
 }
 
-.port-blurb {
- border: 1px solid red;
- 
-}
 .port-blurb h1 {
-  padding-top: 1em;
-  padding-bottom: .5em;
-  scale: 1.85;
+  /* padding-top: 1em;
+  padding-bottom: .5em; */
   text-align: center;
-  border: 1px solid blue;
+  font-size: 6em;
 
 }
 
