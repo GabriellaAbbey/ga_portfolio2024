@@ -55,11 +55,12 @@ h2 {
  h1 {
    font-size: 3em; /* 48px */
    line-height: 1; 
-   /* font-family: dreamboat, sans-serif;; */
    font-family: lust-didone, serif;
    font-weight: 700;
    font-style: italic;
-   /* font-weight: 600; */
+ 
+
+
 
  }
 
@@ -760,9 +761,7 @@ form input[type="submit"] {
 }
 
 span {
-  color: rgb(180, 220, 186);
-  font-size: 1em;
-  font-weight: lighter;
+  font-feature-settings: "salt" 1;
 }
 
 
@@ -774,7 +773,11 @@ span {
 /* CUSTOM SITE CSS *//* CUSTOM SITE CSS *//* CUSTOM SITE CSS */
 
 
-
+.back, .back p {
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 6em;
+}
 
 
 
