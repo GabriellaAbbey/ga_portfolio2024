@@ -1027,7 +1027,12 @@ h3 {
   width: 100%;
   object-fit: cover;
 }
-  
+@media (max-width: 768px) {
+  .smallscreen {
+    display: none;
+    
+  }
+}
 
 @media (max-width: 768px) {
 .port-hero {
