@@ -1056,9 +1056,10 @@ h3 {
   margin-right: auto;
 }
 
-.threelogos {
-  padding-bottom: 4em;
+.column.one-third h3, .column.one-third p {
+  text-align: left;
 }
+
 
 /* sketching */
 .sketching {
