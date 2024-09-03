@@ -1098,4 +1098,6 @@ p {
   padding-left: 4em;
 }
 
-
+.column.one-fourth h3{
+  font-size: 1.125em;
+}
