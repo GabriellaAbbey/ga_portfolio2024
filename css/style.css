@@ -1081,6 +1081,10 @@ p {
   text-align: left;
 }
 
+.column.one-half img {
+  /* border:green; */
+  border-style: outset;
+}
 
 /* sketching */
 .sketching {
