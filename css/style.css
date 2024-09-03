@@ -1018,18 +1018,36 @@ p {
 
 
 
-.port-hero {
+/* .port-hero {
   margin-left: 0;
   text-align: center;
   padding: 0vh 1em 0 1em;
+  height: auto;
+  width: auto;
+  background-image: url("/img/olympichero.png");
+} */
+
+.olympichero {
+  /* background-color: rgb(179, 97, 208); */
+  text-align: center;
+  color: white;
+  padding: 15em 1em;
+  background-size: cover;
+  background-image: url("../img/olympichero.png");
+  
+}
+.port-hero h1 {
+  color: white;
+  font-size: 9em;
+
 }
 
-.port-hero img {
+/* .port-hero img {
   max-width: none;
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
+} */
 @media (max-width: 768px) {
   .smallscreen {
     display: none;
