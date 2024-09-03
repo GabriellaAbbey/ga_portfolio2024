@@ -981,6 +981,9 @@ h3 {
   text-wrap: pretty;
   
 }
+p {
+  text-wrap: pretty;
+}
 
 .pfpimg {
   scale: 1.5;
@@ -1094,4 +1097,5 @@ h3 {
 .puff {
   padding-left: 4em;
 }
+
 
