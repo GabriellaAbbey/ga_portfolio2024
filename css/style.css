@@ -967,6 +967,9 @@ fade-in {
 }
 
 
+
+
+
 /* about css */
 
 #about h3 {
@@ -1022,37 +1025,76 @@ p {
 }
 
 
-
-/* .port-hero {
-  margin-left: 0;
-  text-align: center;
-  padding: 0vh 1em 0 1em;
-  height: auto;
-  width: auto;
-  background-image: url("/img/olympichero.png");
-} */
-
+/* CUSTOME HEROS */
 .olympichero {
   /* background-color: rgb(179, 97, 208); */
   text-align: center;
   color: white;
-  padding: 15em 1em;
+  padding: 6em 1em;
   background-size: cover;
   background-image: url("../img/olympichero.png");
-  
 }
+
+
 .port-hero h1 {
   color: white;
   font-size: 9em;
-
+}
+.felicitehero{
+  text-align: center;
+  color: white;
+  padding: 9em 1em;
+  background-size: cover;
+  background-image: url("../img/feliciteshadow.png");
 }
 
-/* .port-hero img {
-  max-width: none;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-} */
+.constellationhero {
+  text-align: center;
+  color: white;
+  padding: 9em 1em;
+  background-size: cover;
+  background-image: url("../img/constellationhero.png");
+}
+
+.dragonhero {
+  text-align: center;
+  color: white;
+  padding: 2em 1em;
+  background-size: cover;
+  background-image: url("../img/dragonhero.png");
+}
+
+.tacohero {
+  text-align: center;
+  color: white;
+  padding: 9em 1em;
+  background-size: cover;
+  background-image: url("../img/tacohero.png");
+}
+.fribourghero {
+  text-align: center;
+  color: white;
+  padding: 6em 1em;
+  background-size: cover;
+  background-image: url("../img/fribourgcatherdral.png");
+}
+
+.pitviperhero {
+  text-align: center;
+  color: white;
+  padding: 6em 1em;
+  background-size: cover;
+  background-image: url("../img/pitviperhelmet.png");
+}
+
+.tarothero {
+  text-align: center;
+  color: white;
+  padding: 9em 1em;
+  background-size: cover;
+  background-image: url("../img/tarothero.png");
+}
+
 @media (max-width: 768px) {
   .smallscreen {
     display: none;
@@ -1086,10 +1128,11 @@ p {
   text-align: left;
 }
 
-#challenge .column.one-half img {
+#challenge .column.one-half img, .sketching img {
   border-width: 3px;
   box-shadow: 0 20px 20px #020d2d20;
   border-radius: 10px;
+  border: 1px solid #020d2d0c;
 }
 
 /* sketching */
@@ -1106,6 +1149,41 @@ p {
   padding-bottom: 1em;
   padding-top: 4em;
 }
+
+/* STYLE TILES */
+
+.styletiles {
+  text-align: center;
+  max-width: none;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-left: 0;
+  text-align: center;
+  max-height: auto;
+  max-width: auto;
+  padding-bottom: 1em;
+  padding-top: 4em;
+}
+
+.styletiles h3 {
+  text-align: start;
+  padding-top: 4em;
+
+}
+
+.styletiles h2.sectionhead {
+  padding-bottom:0;
+}
+
+
+/* WIREFRAMES */
+#ideation img {
+  box-shadow: 0 20px 20px #020d2d20;
+  border-radius: 10px;
+  border: 1px solid #020d2d0c;
+}
+
 
 /* solution section */
 
@@ -1129,5 +1207,4 @@ p {
 .column.one-fourth h3{
   font-size: 1.125em;
 }
-
 
