@@ -1233,11 +1233,16 @@ p {
   max-width: auto;
 }
 
-.puff {
-  padding-left: 4em;
-}
 
 .column.one-fourth h3{
   font-size: 1.125em;
 }
+@media (max-width: 1250px) {
 
+
+video {
+  /* override other styles to make responsive */
+  width: 100%    !important;
+  height: auto   !important;
+}
+}
