@@ -893,13 +893,14 @@ span {
 .thumbgrid a img {
   filter: brightness(1.075);
   transition: all ease-in-out 0.2s;
-  background-color: #0000;  
+
 }
 
 .thumbgrid a:hover img {
   filter: brightness(1); 
-  opacity: .13;
+  opacity: .33;
   box-shadow: 0 0 10px 0 rgba(0, 63, 21, 0.346);
+ 
 
  
 }
@@ -907,7 +908,7 @@ span {
 .centered-text {
   position: absolute;
   top: 80%;
-  right: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 18px;
