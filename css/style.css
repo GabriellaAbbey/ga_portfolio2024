@@ -299,6 +299,9 @@ h2 {
 
   /* SITE STRUCTURE */
 
+
+
+
   /* SITE HEADER */
   .site-header {
     padding: 1.5em;  
@@ -326,7 +329,11 @@ h2 {
     text-decoration: none;
    
     }
-
+.site-footer {
+ margin: 0;
+ padding: 0;
+ background-color: #3ad4321d ;
+}
   /* LOGO AREA */
   
   .site-id h1 {
@@ -796,16 +803,6 @@ span {
   border-bottom: 3px solid rgba(0, 0, 0, .2);
 }
 
-.site-header.fixed {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
-  background-color: #ffeebb;
-}
-.site-header.fixed + .site-main {
-  padding-top: 3em;
-}
 
 @media (min-height: 600px) {
   #contact {
