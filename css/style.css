@@ -1131,9 +1131,14 @@ p {
 }
 
 @media (max-width: 768px) {
-  .smallscreen {
-    display: none;
-    
+  .port-hero h1{
+    display:flex;
+    font-size: 6em;
+    margin:0;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
   }
 }
 
