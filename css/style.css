@@ -1054,6 +1054,12 @@ p {
   font-family: "libre-bodoni", sans-serif;
 }
 
+@media (max-width:873px) {
+  .thumbgrid {
+    display: block;
+  }
+}
+
 
 /* CUSTOME HEROS */
 .olympichero {
