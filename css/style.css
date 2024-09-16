@@ -133,13 +133,7 @@ h2 {
     margin-right: auto;
   }
 
-/* @media(min-width: 768px) {
-  .hidden-desktop {
-    position: absolute;
-    top:-9999px;
-    left:-9999px;
-  }
-} */
+
 
 @media(max-width: 768px) {
   .hidden-mobile {
@@ -872,6 +866,7 @@ span {
   gap: 5px;
 }
 
+
 .thumbgrid a {
   width: 49.5%;
 }
@@ -929,9 +924,9 @@ display: block;
   display: inline-block;
 }
 
-@media (max-width:873px) {
+@media (max-width:1250px) {
   .thumbgrid {
-    display: block;
+   justify-content: space-evenly;
   }
 }
 
