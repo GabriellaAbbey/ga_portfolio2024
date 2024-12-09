@@ -364,7 +364,9 @@ section {
 .column.one-third, .column.one-fourth {
   text-align: center;
 }
-
+#solution .column.one-third {
+  text-align: left;
+}
 .column.one-half {
   max-width: 50%;
 }
@@ -1164,6 +1166,8 @@ p {
   padding: 0vh 1em 20vh 1em;
 }
 }
+
+
 
 .port-blurb h1 {
   /* padding-top: 1em;
