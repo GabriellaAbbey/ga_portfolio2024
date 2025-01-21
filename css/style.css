@@ -1143,6 +1143,13 @@ p {
   background-size: cover;
   background-image: url("../img/savhero.png");
 }
+.frenzihero {
+  text-align: center;
+  color: white;
+  padding: 9em 1em;
+  background-size: cover;
+  background-image: url("../img/frenzihero.png");
+}
 @media (max-width: 768px) {
   .port-hero h1{
     display:flex;
